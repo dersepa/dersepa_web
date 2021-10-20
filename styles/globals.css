@@ -1,0 +1,100 @@
+body {
+  padding: 0;
+  margin: 0;
+  -ms-overflow-style: none !important; /* IE and Edge */
+  scrollbar-width: none !important; /* Firefox */
+}
+
+body::-webkit-scrollbar {
+  display: none !important;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.nav-link :hover {
+  color: #9f9d8c !important;
+}
+
+.loadmore-btn :hover {
+  color: #9f9d8c !important;
+  text-decoration: underline !important;
+}
+
+.loadmore-btn {
+  color: #ffc600 !important;
+  text-decoration: underline !important;
+}
+
+.loadmore-btn-click {
+  color: black !important;
+  text-decoration: underline !important;
+}
+
+.card-image {
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+* {
+  --animate-duration: 800ms;
+  --blue: #fff;
+  --indigo: #fff;
+  --purple: #fff;
+  --pink: #fff;
+  --red: #fff;
+  --orange: #fff;
+  --yellow: #fff;
+  --green: #fff;
+  --teal: #fff;
+  --cyan: #fff;
+  --white: #fff;
+  --gray: #fff;
+  --gray-dark: #fff;
+  --primary: #ffc600;
+  --secondary: #9f9d8c;
+  --success: #fff;
+  --info: #fff;
+  --warning: #fff;
+  --danger: #fff;
+  --light: #fff;
+  --dark: #fff;
+  font-family: futura-pt !important;
+  font-display: swap !important;
+  /* font-weight: 300 !important; */
+  box-sizing: border-box;
+}
+
+@media only screen and (min-width: 1000px) {
+  .cardMargin {
+    margin-top: -30px;
+  }
+}
+
+.grow {
+  vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.3s;
+  transition-property: transform;
+  overflow: hidden !important;
+}
+
+.grow:hover,
+.grow:focus,
+.grow:active {
+  transform: scale(1.1);
+}
+#CybotCookiebotDialog {border: 4px solid #212529 !important; box-shadow: 0px 4px 6px 0px #aaa !important; left: auto !important; right: 10px !important; bottom: 10px !important; top: auto !important;}
+#CybotCookiebotDialogBodyUnderlay {opacity: 0 !important;}
+#CybotCookiebotDialogBody {width: 230px !important;}
+#CybotCookiebotDialogPoweredbyLink {display: none;}
+#CybotCookiebotDialogBodyContent {padding: 10px 10px 0px !important;}
+a#CybotCookiebotDialogBodyLevelButtonAccept:hover, a#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll:hover, a#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection:hover, a#CybotCookiebotDialogBodyLevelButtonLevelOptinDeclineAll:hover {background-color: #ffc600; border: 1px solid #ffc600; color: #212529;}
+#CybotCookiebotDialogBodyButtons {padding-left: 0px !important; margin: 0 10px 6px 0px !important;}

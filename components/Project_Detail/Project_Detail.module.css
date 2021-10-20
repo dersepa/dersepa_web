@@ -1,0 +1,115 @@
+.leftBox {
+  background-color: #f8f7f7;
+  width: 50%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 300;
+  padding: 0 30px;
+}
+
+.back-btn {
+  color: #ffc600;
+  font-weight: bold;
+}
+
+.hoverEffect {
+  cursor: pointer;
+}
+
+.mycard {
+  border-radius: 0 !important;
+  border-bottom-width: 1px !important;
+  border-right-width: 0 !important;
+  border-left-width: 0 !important;
+  border-top-width: 0 !important;
+}
+
+.mycard :hover {
+  cursor: pointer;
+  /* box-shadow: 3px 3px 3px #aaaaaa; */
+}
+
+.loadmore-btn {
+  color: #ffc600 !important;
+  text-decoration: underline !important;
+}
+
+.leftRow {
+  margin-top: 8%;
+  margin-bottom: 4%;
+}
+
+@media only screen and (max-width: 1000px) {
+  .leftBox {
+    width: 100%;
+    height: auto !important;
+    position: relative;
+    z-index: 300;
+    padding: 0 20px;
+  }
+  .footerBar {
+    position: absolute;
+    width: 90%;
+    z-index: 500;
+    bottom: 0;
+    margin-top: 20px;
+    font-size: 12px;
+  }
+  .main-heading {
+    font-size: 20px;
+  }
+  .leftRow {
+    margin-top: 15%;
+    padding-bottom: 5%;
+  }
+  .main-heading-margin {
+    margin-bottom: 5rem;
+  }
+  .footer {
+    display: none;
+  }
+  .footerMbl {
+    display: inline-block !important;
+    width: 100%;
+    font-size: 12px;
+  }
+  .Itemlist {
+    padding: 0px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .Itemlist {
+    margin-left: 50%;
+    padding: 0px;
+  }
+  .footerBar {
+    position: absolute;
+    width: 90%;
+    z-index: 500;
+    bottom: 0;
+    margin-top: 20px;
+    font-size: 12px;
+  }
+  .card4 {
+    height: 265px;
+    width: 95%;
+    position: absolute;
+    top: -30;
+  }
+  .card7 {
+    width: 98%;
+    position: absolute;
+    top: -35;
+  }
+  .main-heading {
+    font-size: 36px;
+  }
+  .toggleBtn {
+    display: inline;
+  }
+  /* .footerMbl {
+  display: inline-block;
+} */
+}

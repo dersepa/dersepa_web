@@ -1,0 +1,167 @@
+.markdownclass p img {
+  width: 100%;
+}
+
+.markdownclass p {
+  margin: 40px 0px;
+}
+
+.seemslikeagoodone {
+  top: 0px;
+  left: 0px;
+  height: 26px;
+  text-align: left;
+  font: normal normal 900 20px/26px  futura-pt;
+  letter-spacing: 0px;
+  color: #312f1e;
+}
+
+.letstalk {
+  top: 26px;
+  left: 0px;
+  height: 26px;
+  text-align: left;
+  text-decoration: underline;
+  font: normal normal 900 20px/26px futura-pt;
+  letter-spacing: 0px;
+  color: #ffc600;
+}
+
+.leftBox {
+  background-color: #f8f7f7;
+  width: 50%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 300;
+  padding: 0 30px;
+}
+
+.back-btn {
+  color: #ffc600;
+  font-weight: bold;
+}
+
+.hoverEffect {
+  cursor: pointer;
+}
+
+.mycard {
+  border-radius: 0 !important;
+  border-bottom-width: 1px !important;
+  border-right-width: 0 !important;
+  border-left-width: 0 !important;
+  border-top-width: 0 !important;
+}
+
+.mycard :hover {
+  cursor: pointer;
+  /* box-shadow: 3px 3px 3px #aaaaaa; */
+}
+
+.loadmore-btn {
+  color: #ffc600 !important;
+  text-decoration: underline !important;
+}
+
+.footer {
+  /* position: fixed; */
+  /* width: 45%; */
+  /* z-index: 500; */
+  /* bottom: 0; */
+  margin-top: 20px;
+  font-size: 12px;
+}
+
+.leftRow {
+  margin-top: 10%;
+}
+
+@media only screen and (max-width: 1000px) {
+  .leftBox {
+    width: 100%;
+    height: auto !important;
+    position: relative;
+    z-index: 300;
+    padding: 0 20px;
+  }
+  .main-heading {
+    font-size: 20px;
+  }
+  .summary {
+    font-size: 16px;
+    font-weight: bold;
+    top: 478px;
+    left: 30px;
+    width: 582px;
+    height: 133px;
+    text-align: left;
+    font: oblique normal normal 22px/26px futura-pt;
+    letter-spacing: 0px;
+    color: #312f1e;
+    opacity: 1;
+  }
+  .leftRow {
+    margin-top: 15%;
+    padding-bottom: 5%;
+  }
+  .main-heading-margin {
+    margin-bottom: 5rem;
+  }
+  .footer {
+    display: none;
+  }
+  .footerMbl {
+    display: inline-block !important;
+    width: 100%;
+    font-size: 12px;
+  }
+  .Itemlist {
+    padding: 0px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .Itemlist {
+    margin-left: 50%;
+    padding: 0px;
+  }
+  .card4 {
+    height: 265px;
+    width: 95%;
+    position: absolute;
+    top: -30;
+  }
+  .card7 {
+    width: 98%;
+    position: absolute;
+    top: -35;
+  }
+  .main-heading {
+    font-size: 36px;
+  }
+  .summary {
+    font-size: 24px;
+    top: 478px;
+    left: 30px;
+    width: 582px;
+    height: 133px;
+    text-align: left;
+    font: oblique normal normal 22px/26px futura-pt;
+    letter-spacing: 0px;
+    color: #312f1e;
+    opacity: 1;
+    font-weight: bold;
+  }
+  .toggleBtn {
+    display: inline;
+  }
+
+  iframe {
+    display: flex;
+    margin: auto;
+  }
+  /* .footerMbl {
+  display: inline-block;
+} */
+}

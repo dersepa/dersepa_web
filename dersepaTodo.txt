@@ -1,0 +1,9 @@
+- Put to work the unique links of both projects and article pages
+  (he actually manage to make this somehow)
+- Verification on e-mail in the contact form
+- Recaptcha working
+- Project loading element (to tell the page is loading)
+- Main image on article page getting distorted…
+- ServiceWorker to serve offline experience
+- ServiceWorker to serve install PWA mini-banner in the bottom
+- See the git on CPanel to work as hit repository for us.

@@ -1,0 +1,45 @@
+{
+  "name": "Dersepa",
+  "short_name": "Dersepa",
+  "theme_color": "#FFC600",
+  "background_color": "#FFC600",
+  "description": "Dersepa Studio, where brands and web designs come to life!",
+  "display": "standalone",
+  "orientation": "portrait",
+  "scope": "/",
+  "start_url": "/?source=pwa",
+  "icons": [
+    {
+      "src": "mipmap-mdpi/dersepa-icon_ic_launcher.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    },
+    {
+      "src": "mipmap-hdpi/dersepa-icon_ic_launcher.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "mipmap-xhdpi/dersepa-icon_ic_launcher.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "mipmap-xxhdpi/dersepa-icon_ic_launcher.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "mipmap-xxxhdpi/dersepa-icon_ic_launcher.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "dersepa-icon_web_hi_res_512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ]
+}

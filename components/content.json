@@ -1,0 +1,87 @@
+{
+  "footer": {
+    "en": "Dersepa.com, all rights reserved! ",
+    "pt": "Dersepa.com, todos os direitos reservados! "
+  },
+
+  "form": {
+    "en": [
+      "Name",
+      "E-mail address",
+      "Message",
+      "Don’t worry, we won’t use your details to resell or use for any marketing purpose.",
+      "Submit"
+    ],
+    "pt": [
+      "Nome",
+      "Endreço de e-mail",
+      "Mensagem",
+      "Não se preocupe, não usaremos seus dados para revender ou usar para qualquer finalidade de marketing.",
+      "Enviar"
+    ]
+  },
+
+  "home": {
+    "en": [
+      "We’re a communication studio that tailor brands into its client’s world. We’re bold, innovative…",
+      "we’re passionated!",
+      "Let’s create something amazing!",
+      "Say hello!"
+    ],
+    "pt": [
+      "Somos um estúdio de comunicação que adapta marcas ao mundo de seus clientes. Somos ousados, inovadores…",
+      "nós somos apaixonados!",
+      "Vamos criar algo incrível!",
+      "Diga olá!"
+    ]
+  },
+
+  "projects": {
+    "en": [
+      "We strive for one single idea: Less is more!",
+      "And great Design is born of those three words.",
+      "Let’s start?"
+    ],
+    "pt": [
+      "Esforçamo-nos por uma única ideia: menos é mais!",
+      "E grande Design nasce dessas três palavras.",
+      "Vamos começar?"
+    ]
+  },
+
+  "studio": {
+    "en": [
+      "We see, live and breath all about brand identity, from the pixel perfect, print detail to the invention of unique brands! Details matter as well the type of brand you are or wanna be. We’ll help you to give identity to that.",
+      "We master Brand creations, App & Website conception and any communication piece online or print.",
+      "If this is something you can relate with, say hi!"
+    ],
+
+    "pt": [
+      "Vemos, vivemos e respiramos tudo sobre a identidade da marca, desde o pixel perfeito, detalhes de impressão até a invenção de marcas únicas! Os detalhes importam também o tipo de marca que você é ou deseja ser. Vamos ajudá-lo a dar identidade a isso.",
+      "Dominamos as criações de marcas, a concepção de aplicativos e sites e qualquer peça de comunicação online ou impressa.",
+      "Se você se identifica com isso, diga oi!"
+    ]
+  },
+
+  "ad-hoc": {
+    "en": [
+      "We’re part of the world and the world is part of us!",
+      "Read some articles we found interesting about brand & design"
+    ],
+    "pt": [
+      "Fazemos parte do mundo e o mundo faz parte de nós!",
+      "Leia alguns artigos que achamos interessantes sobre marca e design"
+    ]
+  },
+
+  "contact": {
+    "en": [
+      "You never know what this contact might bring you...",
+      "maybe success?!"
+    ],
+    "pt": [
+      "Você nunca sabe o que este contato pode lhe trazer...",
+      "talvez sucesso ?!"
+    ]
+  }
+}

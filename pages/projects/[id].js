@@ -77,27 +77,28 @@ function ProjectDetail(props) {
   );
 }
 
-export async function getStaticPaths() {
-  // Call an external API endpoint to get projects
-  const projectsRes = await fetch(BASE_URL + "/projects");
-  const projects = await projectsRes.json();
+// export async function getStaticPaths() {
+//   // Call an external API endpoint to get projects
+//   const projectsRes = await fetch(BASE_URL + "/projects");
+//   const projects = await projectsRes.json();
 
-  // Get the paths we want to pre-render based on projects
-  const paths = projects.map((project) => ({
-    params: {
-      id: `${removeDiacritics(project.title).split(" ").join("-")}_${
-        project.id
-      }`,
-      length: projects.length.toString(),
-    },
-  }));
+//   // Get the paths we want to pre-render based on projects
+//   const paths = projects.map((project) => ({
+//     params: {
+//       id: `${removeDiacritics(project.title).split(" ").join("-")}_${
+//         project.id
+//       }`,
+//       length: projects.length.toString(),
+//     },
+//   }));
 
-  // We'll pre-render only these paths at build time.
-  // { fallback: false } means other routes should 404.
-  return { paths, fallback: false };
-}
+//   // We'll pre-render only these paths at build time.
+//   // { fallback: false } means other routes should 404.
+//   return { paths, fallback: false };
+// }
 
-export async function getStaticProps({ params }) {
+export async function getServerSideProps({ params }) {
+  console.log(params);
   const id = params.id.split("_");
 
   const response = await axios.get(BASE_URL + `/Projects/${id[1]}`);
@@ -115,7 +116,18 @@ export async function getStaticProps({ params }) {
   }
   const data = response.data;
 
-  return { props: { data, data2 }, revalidate: 10 };
+  if (params.id !== `${removeDiacritics(data.title).split(" ").join("-")}_${data.id}`) {
+    return {
+      redirect: {
+        permanent: false,
+        destination: "/404",
+      },
+      props:{},
+    };
+    
+  }
+
+  return { props: { data, data2 } };
 }
 
 // export async function getServerSideProps({ query }) {
@@ -144,6 +156,12 @@ export async function getStaticProps({ params }) {
 //   // Pass data to the page via props
 //   return { props: { data, data2 } };
 // }
+
+
+
+
+
+
 
 const mapStateToProps = (state) => ({
   ids: state,

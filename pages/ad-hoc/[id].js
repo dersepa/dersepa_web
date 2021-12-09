@@ -5,8 +5,8 @@ import axios from "axios";
 import { NextSeo } from "next-seo";
 import Cookies from "cookies";
 import { BASE_URL } from "../../components/_utils";
-
 import { useRouter } from "next/router";
+import Head from "next/head";
 
 import {
   removeDiacritics,
@@ -45,6 +45,7 @@ function ProjectDetail(props) {
   };
 
   return (
+    <>
     <div>
       <NextSeo
         openGraph={{
@@ -67,6 +68,10 @@ function ProjectDetail(props) {
       />
       <AdhocImages language={language} project={props.data} type="ad-hoc" />
     </div>
+    <Head>
+      <title>{language === "pt" ? props.data.title_portuguese : props.data.title}</title>
+    </Head>
+    </>
   );
 }
 

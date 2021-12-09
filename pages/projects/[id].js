@@ -6,7 +6,6 @@ import { NextSeo } from "next-seo";
 import Cookies from "cookies";
 import { BASE_URL } from "../../components/_utils";
 import Head from "next/head";
-
 import { useRouter } from "next/router";
 
 import {

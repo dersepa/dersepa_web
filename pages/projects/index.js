@@ -3,6 +3,7 @@ import ChatButton from "../../components/ChatButton";
 import { useEffect } from "react";
 import axios from "axios";
 import { BASE_URL } from "../../components/_utils";
+import Head from "next/head";
 
 function index() {
   useEffect(() => {
@@ -22,6 +23,9 @@ function index() {
     <>
       <ChatButton />
       <Projects />
+      <Head>
+        <title>Dersepa Studio Projects - Brands and Web design</title>
+      </Head>
     </>
   );
 }

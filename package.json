@@ -1,7 +1,7 @@
 {
   "name": "next-boilerplate",
   "version": "0.1.0",
-  "homepage": "https://dersepa.com/",
+  "homepage": "http://dersepa.com/",
   "private": true,
   "scripts": {
     "dev": "next dev",

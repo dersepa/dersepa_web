@@ -5,6 +5,7 @@ import axios from "axios";
 import { NextSeo } from "next-seo";
 import Cookies from "cookies";
 import { BASE_URL } from "../../components/_utils";
+import Head from "next/head";
 
 import { useRouter } from "next/router";
 
@@ -51,6 +52,7 @@ function ProjectDetail(props) {
   };
 
   return (
+    <>
     <div>
       <NextSeo
         openGraph={{
@@ -74,6 +76,13 @@ function ProjectDetail(props) {
         type="projects"
       />
     </div>
+    <Head>
+      <title>Dersepa Studio Projects - {language === "pt"
+                ? props.data.title_portuguese
+                : props.data.title}
+      </title>
+    </Head>
+    </>
   );
 }
 

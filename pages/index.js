@@ -1,6 +1,5 @@
 import Home from "../components/Home";
 import ChatButton from "../components/ChatButton";
-
 import Head from "next/head";
 
 export default function index() {
@@ -13,6 +12,7 @@ export default function index() {
           type="text/javascript"
           async
         ></script>
+        <title>Dersepa Studio - Brands and Web design</title>
       </Head>
       <ChatButton />
       <Home />

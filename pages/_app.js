@@ -59,7 +59,6 @@ function MyApp({ Component, pageProps }) {
         showOnShallow={true}
       />
       <Head>
-        <title>Dersepa Studio - Brands and Web design</title>
         <meta property="og:url" content="https://www.dersepa.com/" />
         <meta property="og:type" content="website" />
         <meta property="og:locale" />

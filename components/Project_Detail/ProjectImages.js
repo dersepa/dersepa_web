@@ -36,7 +36,7 @@ export default function ProjectImages(props) {
           <img
             height="auto"
             width="auto"
-            alt=""
+            alt="back button"
             onClick={() => router.push("/projects")}
             onMouseDown={() => setClick(true)}
             onMouseUp={() => setClick(false)}
@@ -50,7 +50,7 @@ export default function ProjectImages(props) {
             return (
               <Col key={i} xs={12} style={{ padding: 0 }}>
                 <img
-                  alt=""
+                  alt={language === "pt" ? props.project.title_portuguese : props.project.title}
                   style={{ width: "100%" }}
                   src={BASE_URL + contentImage.url}
                 />

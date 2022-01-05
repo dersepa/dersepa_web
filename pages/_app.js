@@ -66,10 +66,6 @@ function MyApp({ Component, pageProps }) {
           content="Dersepa Studio - Brands and Web design at Dersepa.com"
         />
         <meta
-          property="og:description"
-          content="Dersepa Studio - Brands and Web design taylored to you, with the best identity and UI and UX design can get today and for the future."
-        />
-        <meta
           property="og:site_name"
           content="Dersepa Studio - Brands and Web design"
         />
@@ -133,9 +129,7 @@ function MyApp({ Component, pageProps }) {
         <meta name="apple-mobile-web-app-title" content="Dersepa" />
 
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-        <meta
-          name="description"
-          content="Dersepa Studio - Brands and Web design taylored to you, with the best identity and UI and UX design can get today and for the future."
+        <meta name="description" content="Dersepa Studio - Brands and Web design taylored to you, with the best identity and UI and UX design can get today and for the future."
         />
         <meta name="robots" content="index,follow,noodp" />
 

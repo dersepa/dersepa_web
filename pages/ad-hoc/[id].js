@@ -58,7 +58,7 @@ function ProjectDetail(props) {
             },
           ],
           title: props.data.title,
-          description: props.data.id,
+          description: props.data.description,
         }}
       />
       <AdhocContent

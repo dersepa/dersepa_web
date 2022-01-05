@@ -70,7 +70,6 @@ function ProjectDetail(props) {
     <Head>
       <title>Dersepa Studio Projects - {language === "pt" ? props.data.title_portuguese : props.data.title}</title>
       <meta property="og:type" content="article" />
-      <meta property="og:image" content={BASE_URL + props.data.cover_image.url} />
       <meta property="og:title" content={language === "pt" ? props.data.title_portuguese : props.data.title} />
     </Head>
     </>

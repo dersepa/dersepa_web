@@ -62,10 +62,6 @@ function MyApp({ Component, pageProps }) {
         <meta property="og:url" content="https://www.dersepa.com/" />
         <meta property="og:locale" />
         <meta
-          property="og:title"
-          content="Dersepa Studio - Brands and Web design at Dersepa.com"
-        />
-        <meta
           property="og:site_name"
           content="Dersepa Studio - Brands and Web design"
         />

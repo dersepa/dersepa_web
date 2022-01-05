@@ -70,6 +70,7 @@ function ProjectDetail(props) {
     </div>
     <Head>
       <title>{language === "pt" ? props.data.title_portuguese : props.data.title}</title>
+      <meta property="og:type" content="article" />
     </Head>
     </>
   );

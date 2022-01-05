@@ -55,16 +55,8 @@ function ProjectDetail(props) {
     <div>
       <NextSeo
         openGraph={{
-          images: [
-            {
-              url: BASE_URL + props.data.cover_image.url,
-              width: 800,
-              height: 600,
-              alt: "Og Image Alt",
-            },
-          ],
-          title: props.data.title,
-          description: props.data.id,
+          images: [ { url: BASE_URL + props.data.cover_image.url, width: 800, height: 600, alt: "Og Image Alt", }, ],
+          title: props.data.title, description: props.data.id,
         }}
       />
       <ProjectContent setLanguage={setLanguage} project={props.data} />
@@ -81,14 +73,8 @@ function ProjectDetail(props) {
                 : props.data.title}
       </title>
       <meta property="og:type" content="article" />
-      <meta property="og:image" content={BASE_URL + props.data.cover_image.url}
-      />
-      <meta
-        property="og:title"
-        content={language === "pt"
-        ? props.data.title_portuguese
-        : props.data.title}
-      />
+      <meta property="og:image" content={BASE_URL + props.data.cover_image.url} />
+      <meta property="og:title" content={language === "pt" ? props.data.title_portuguese : props.data.title} />
     </Head>
     </>
   );

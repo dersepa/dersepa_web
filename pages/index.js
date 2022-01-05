@@ -13,6 +13,7 @@ export default function index() {
           async
         ></script>
         <title>Dersepa Studio - Brands and Web design</title>
+        <meta property="og:type" content="website" />
       </Head>
       <ChatButton />
       <Home />

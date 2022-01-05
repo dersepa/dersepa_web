@@ -16,6 +16,7 @@ export default function Studio() {
     </div>
     <Head>
         <title>Dersepa Studio - About us</title>
+        <meta property="og:type" content="website" />
     </Head>
     </>
   );

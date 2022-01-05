@@ -9,6 +9,7 @@ export default function MyAdHoc(props) {
       <AdHoc />
       <Head>
         <title>Dersepa Studio Ad-hoc - Stories about Brands and Web design</title>
+        <meta property="og:type" content="website" />
       </Head>
     </>
   );

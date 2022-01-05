@@ -25,6 +25,7 @@ function index() {
       <Projects />
       <Head>
         <title>Dersepa Studio Projects - Brands and Web design</title>
+        <meta property="og:type" content="website" />
       </Head>
     </>
   );

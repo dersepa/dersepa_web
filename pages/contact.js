@@ -8,6 +8,7 @@ export default function contactus() {
       <Contact />
       <Head>
         <title>Dersepa Studio Contact - Brands and Web design</title>
+        <meta property="og:type" content="website" />
       </Head>
     </>
   );

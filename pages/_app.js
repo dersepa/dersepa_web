@@ -60,7 +60,6 @@ function MyApp({ Component, pageProps }) {
       />
       <Head>
         <meta property="og:url" content="https://www.dersepa.com/" />
-        <meta property="og:type" content="website" />
         <meta property="og:locale" />
         <meta
           property="og:title"

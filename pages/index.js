@@ -17,6 +17,7 @@ export default function index() {
         <meta name="description" content="Dersepa Studio - Brands and Web design taylored to you, with the best identity and UI and UX design can get today and for the future."
         />
         <meta property="og:title" content="Dersepa Studio - Brands and Web design at Dersepa.com" />
+        <meta property="og:url" content="https://www.dersepa.com/" />
       </Head>
       <ChatButton />
       <Home />

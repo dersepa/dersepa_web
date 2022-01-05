@@ -71,6 +71,7 @@ function ProjectDetail(props) {
     <Head>
       <title>{language === "pt" ? props.data.title_portuguese : props.data.title}</title>
       <meta property="og:type" content="article" />
+      <meta property="og:url" content={"https://www.dersepa.com/projects/" + removeDiacritics(props.data.title).split(" ").join("-") + "_" + props.data.id} />
     </Head>
     </>
   );

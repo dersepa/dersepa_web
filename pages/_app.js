@@ -59,7 +59,6 @@ function MyApp({ Component, pageProps }) {
         showOnShallow={true}
       />
       <Head>
-        <meta property="og:url" content="https://www.dersepa.com/" />
         <meta property="og:locale" />
         <meta
           property="og:site_name"

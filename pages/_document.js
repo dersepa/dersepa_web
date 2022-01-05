@@ -1,5 +1,5 @@
 import Document, { Html, Head, Main, NextScript } from "next/document";
-
+import "../styles/globals.css";
 import { GA_TRACKING_ID } from "../lib/gtag";
 
 export default class MyDocument extends Document {

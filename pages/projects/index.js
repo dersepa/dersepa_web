@@ -24,11 +24,11 @@ function index() {
       <ChatButton />
       <Projects />
       <Head>
-        <title>Dersepa Studio Projects - Brands and Web design</title>
+        <title>Brand and web design projects, built with best custom design by Dersepa.com</title>
         <meta property="og:type" content="website" />
-        <meta name="description" content="Dersepa Studio - Brands and Web design taylored to you, with the best identity and UI and UX design can get today and for the future."
+        <meta name="description" content="Brand and web design projects, built with best custom design"
         />
-        <meta property="og:title" content="Dersepa Studio - Brands and Web design at Dersepa.com" />
+        <meta property="og:title" content="Brand and web design projects, built with best custom design by Dersepa.com" />
       </Head>
     </>
   );

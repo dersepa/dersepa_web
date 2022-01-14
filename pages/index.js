@@ -14,9 +14,9 @@ export default function index() {
         ></script>
         <title>Dersepa Studio - Brands and Web design</title>
         <meta property="og:type" content="website" />
-        <meta name="description" content="Dersepa Studio - Brands and Web design taylored to you, with the best identity and UI and UX design can get today and for the future."
+        <meta name="description" content="Dersepa Studio - Creation of Brands and Web design taylored to you, with the best identity and UI and UX design can get today and for the future."
         />
-        <meta property="og:title" content="Dersepa Studio - Brands and Web design at Dersepa.com" />
+        <meta property="og:title" content="Dersepa Studio - Creation of Brands and Web design at Dersepa.com" />
         <meta property="og:url" content="https://www.dersepa.com/" />
       </Head>
       <ChatButton />

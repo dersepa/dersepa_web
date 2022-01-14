@@ -1,34 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://dersepa.com/contact</loc>
+    <loc>https://www.dersepa.com/contact</loc>
   </url>
 
   <url>
-    <loc>https://dersepa.com</loc>
+    <loc>https://www.dersepa.com</loc>
   </url>
 
   <url>
-    <loc>https://dersepa.com/sitemaps.xml</loc>
+    <loc>https://www.dersepa.com/sitemaps.xml</loc>
   </url>
 
   <url>
-    <loc>https://dersepa.com/ad-hoc/[id]</loc>
+    <loc>https://www.dersepa.com/ad-hoc/[id]</loc>
+  </url>
+  <url>
+    <loc>https://www.dersepa.com/ad-hoc</loc>
   </url>
 
   <url>
-    <loc>https://dersepa.com/ad-hoc</loc>
+    <loc>https://www.dersepa.com/projects/[id]</loc>
+  </url>
+  <url>
+    <loc>https://www.dersepa.com/projects/Vito-Oculista---logo-concept_1</loc>
+  </url>
+  <url>
+    <loc>https://www.dersepa.com/projects/Cincope---logo-concept_2</loc>
+  </url>
+  <url>
+    <loc>https://www.dersepa.com/projects/Electronia---logo-concept_3</loc>
+  </url>
+  <url>
+    <loc>https://www.dersepa.com/projects/Everbingo_4</loc>
+  </url>
+  <url>
+    <loc>https://www.dersepa.com/projects/SpieleHelden---concept_6</loc>
+  </url>
+  <url>
+    <loc>https://www.dersepa.com/projects/arky---artesanal-jewellery-factory_9</loc>
+  </url>
+  <url>
+    <loc>https://www.dersepa.com/projects/USF-Alfena_10</loc>
+  </url>
+  <url>
+    <loc>https://www.dersepa.com/projects/Bet-Pegasus---iGaming-brand-design_11</loc>
+  </url>
+  <url>
+    <loc>https://www.dersepa.com/projects/Dr-Paulo-Freitas-da-Costa---Brand-and-web-app_12</loc>
+  </url>
+  <url>
+    <loc>https://www.dersepa.com/projects/GymFit---web-app-and-logo-concept_13</loc>
   </url>
 
   <url>
-    <loc>https://dersepa.com/projects/[id]</loc>
+    <loc>https://www.dersepa.com/projects</loc>
   </url>
 
   <url>
-    <loc>https://dersepa.com/projects</loc>
-  </url>
-
-  <url>
-    <loc>https://dersepa.com/studio</loc>
+    <loc>https://www.dersepa.com/studio</loc>
   </url>
 </urlset>

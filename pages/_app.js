@@ -106,28 +106,17 @@ function MyApp({ Component, pageProps }) {
           sizes="120x120"
           rel="apple-touch-icon"
         />
-
         <meta http-equiv="Content-Type" content="text/html; charSet=utf-8" />
-
         <link rel="manifest" href="manifest.json" />
-
+        <link rel="canonical" href="https://www.dersepa.com/"></link>
         <meta name="msapplication-config" content="none" />
-
         <meta name="theme-color" content="#FFC600" />
-
         <meta name="mobile-web-app-capable" content="yes" />
-
         <meta name="apple-mobile-web-app-capable" content="yes" />
-
         <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-
         <meta name="apple-mobile-web-app-title" content="Dersepa" />
-
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="description" content="Dersepa Studio - Brands and Web design taylored to you, with the best identity and UI and UX design can get today and for the future."
-        />
         <meta name="robots" content="index,follow,noodp" />
-
         <meta content="en" name="language" />
 
         <link rel="stylesheet" href="https://use.typekit.net/fog2ydr.css" />

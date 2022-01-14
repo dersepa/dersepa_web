@@ -8,11 +8,11 @@ export default function MyAdHoc(props) {
       <ChatButton language={props.language} />
       <AdHoc />
       <Head>
-        <title>Dersepa Studio Ad-hoc - Stories about Brands and Web design</title>
+        <title>Ad-hoc articles about design. Inspiration on Brand, web and graphic design by Dersepa.com</title>
         <meta property="og:type" content="website" />
-        <meta name="description" content="Dersepa Studio - Brands and Web design taylored to you, with the best identity and UI and UX design can get today and for the future."
+        <meta name="description" content="Ad-hoc articles about design. Inspiration on Brand, web and graphic design by Dersepa.com"
         />
-        <meta property="og:title" content="Dersepa Studio - Brands and Web design at Dersepa.com" />
+        <meta property="og:title" content="Ad-hoc articles about design. Inspiration on Brand, web and graphic design by Dersepa.com" />
       </Head>
     </>
   );

@@ -68,8 +68,9 @@ function ProjectDetail(props) {
       />
     </div>
     <Head>
-      <title>Dersepa Studio Projects - {language === "pt" ? props.data.title_portuguese : props.data.title}</title>
+      <title>{language === "pt" ? props.data.title_portuguese : props.data.title} - by Dersepa Studio Project</title>
       <meta property="og:type" content="article" />
+      <meta name="description" content={language === "pt" ? props.data.title_portuguese : props.data.title + " by Dersepa, Brand and web design"} />
       <meta property="og:url" content={"https://www.dersepa.com/projects/" + removeDiacritics(props.data.title).split(" ").join("-") + "_" + props.data.id} />
     </Head>
     </>

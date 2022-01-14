@@ -15,11 +15,11 @@ export default function Studio() {
       <StudioImages />
     </div>
     <Head>
-        <title>Dersepa Studio - About us</title>
+        <title>About us - Dersepa Studio story, vision and services</title>
         <meta property="og:type" content="website" />
-        <meta name="description" content="Dersepa Studio - Brands and Web design taylored to you, with the best identity and UI and UX design can get today and for the future."
+        <meta name="description" content="About us - Design Studio. See how to create brands and custom websites ad Dersepa.com"
         />
-        <meta property="og:title" content="Dersepa Studio - Brands and Web design at Dersepa.com" />
+        <meta property="og:title" content="About us - Design Studio. See how to create brands and custom websites at Dersepa.com" />
         <meta property="og:url" content="https://www.dersepa.com/studio/" />
     </Head>
     </>
